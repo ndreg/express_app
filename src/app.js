@@ -12,6 +12,7 @@ app.set('views', path.join(__dirname, '/views'));
 
 // Middleware
 app.use(login);
+app.use(express.urlencoded({extended:false}));
 
 // Routes and controllers
 app.get('/', (req, res) => {

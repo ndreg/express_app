@@ -7,4 +7,16 @@ html(lang="en")
     title Node app
   body 
     header
-      h1 Those are my new members!
+      h1 Node App
+    main
+      h2 Users 
+      table
+        tr
+          td id
+          td Nombre
+          td Edad
+        each val in users 
+          tr
+            td= val.id 
+            td= val.nombre
+            td= val.edad

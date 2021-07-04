@@ -1,0 +1,18 @@
+{
+  "name": "express_server4",
+  "version": "1.0.0",
+  "description": "Creating an node app using express",
+  "main": "./src/app.js",
+  "scripts": {
+    "server": "nodemon run"
+  },
+  "author": "Andres Forero",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
